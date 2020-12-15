@@ -1,0 +1,2 @@
+class InvalidTransitionMatrix(Exception):
+    pass
