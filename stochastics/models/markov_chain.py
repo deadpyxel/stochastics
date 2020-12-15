@@ -43,3 +43,8 @@ class MarkovChain:
         return str(
             {"initial": self._initial, "transition_matrix": self._transition_matrix}
         )
+
+    def get_n_steps_probability(self, n: int, precision: int = 5) -> TransitionMatrix:
+        return [
+            [round(p ** n, precision) for p in line] for line in self._transition_matrix
+        ]
