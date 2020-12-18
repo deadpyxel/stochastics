@@ -11,5 +11,5 @@ MarkovComponents = Tuple[InitialProbabilities, TransitionMatrix]
 
 
 class MarkovRepr(TypedDict):
-    initial: InitialProbabilities
+    initial_prob: InitialProbabilities
     transition_matrix: TransitionMatrix
