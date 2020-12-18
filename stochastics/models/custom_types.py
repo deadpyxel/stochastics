@@ -6,6 +6,7 @@ from typing import TypedDict
 # Markov Chain Types
 InitialProbabilities = Sequence[float]
 TransitionMatrix = Sequence[Sequence[float]]
+Transition = Tuple[int, int]
 MarkovComponents = Tuple[InitialProbabilities, TransitionMatrix]
 
 
