@@ -29,6 +29,15 @@ class MarkovChain:
     def from_dict(cls, data_dict: MarkovRepr) -> MarkovChain:
         return cls(**data_dict)
 
+    @classmethod
+    def from_str(cls, input_data: str) -> MarkovChain:
+        values = [
+            [float(val) for val in line.split()] for line in input_data.split("\n")
+        ]
+        initial_prob, *transition_matrix = values
+        print(initial_prob, transition_matrix)
+        return cls(initial_prob, transition_matrix)
+
     def _get_probability_step(self, origin_state: int, target_state: int) -> float:
         return self._transition_matrix[origin_state][target_state]
 
