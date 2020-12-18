@@ -64,6 +64,10 @@ You can also see if the current test coverage of the project is good by running:
 pytest --cov
 ```
 
+## Need help? Found an bug? Have a good idea?
+
+I encourage you to look around in the [issues](https://github.com/deadpyxel/stochastics/issues) section, see if someone else is working on a fix for your problem, there's already a report for the bug, or some new feature being dicussed that you are interested. If you found nothing, feel free to create an issue using one of the provided templates.
+
 ## Author
 
 **Robson Cruz**
