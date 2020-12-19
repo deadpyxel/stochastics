@@ -1,5 +1,6 @@
 # Welcome to stochastics
 ![Version](https://img.shields.io/badge/version-0.4.0-blue.svg?cacheSeconds=2592000)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/stochastics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > A simple library to help solving stochastic processes and finding resulting probilities of common applications
